@@ -1,13 +1,12 @@
 Name: httpd
 Cartridge-Short-Name: HTTPD
 Display-Name: HTTPD Cartridge
-Source-Url: https://github.com/mmcgrath-openshift/httpd-example.git
 Description: "A httpd cartridge for development use only."
 Version: '0.1'
 License: "None"
-Vendor: Custom Cartridges INC
+Vendor: scheng
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: customcarts
+Cartridge-Vendor: scheng
 Categories:
   - service
   - web_framework
@@ -33,3 +32,4 @@ Endpoints:
       - Frontend:      ""
         Backend:       ""
         Options:       { websockets: false }
+Source-Url: https://github.com/stephencheng/cmhttpdcart.git
